@@ -38,7 +38,9 @@ function draw() {
   background(46,139,87);
   foodObj.display();
 
+ //read the feedtime from database will come in lastFed
   //write code to read fedtime value from the database 
+  text("leastFeed "+latstFed+"PM")
   
  
   
